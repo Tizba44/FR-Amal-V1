@@ -1,0 +1,265 @@
+/* .........../article texte/............ */
+.sylvain {
+    font-family: "helvetica";
+    font-size: 2rem;
+}
+
+.articleTexte {
+    margin-bottom: 5%;
+    margin-right: 19%;
+    margin-left: 19%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.articleTexte a {
+    font-family: 'helvetica';
+    color: #A04545;
+}
+
+h1 {
+    text-align: center;
+}
+
+.articleTexte h1 {
+    font-size: 2.3rem;
+    font-family: 'helvetica';
+}
+
+.articleTexte h2,
+h3 {
+    font-size: 2.1rem;
+    font-family: 'helvetica';
+}
+
+
+
+.articleTexte p {
+    font-family: 'helvetica';
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.articleTexte li {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    list-style-type: disc;
+    margin-left: 8.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'helvetica';
+}
+
+blockquote {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 8%;
+    quotes: "“" "”" "‘" "’";
+}
+
+blockquote p::before {
+    line-height: 0.5;
+    content: open-quote;
+    font-size: 550%;
+    color: rgb(188, 188, 188);
+    font-family: 'helvetica';
+    margin-right: -50px;
+    margin-top: -10px;
+    float: left;
+}
+
+blockquote p::after {
+    line-height: 0;
+    content: close-quote;
+    font-size: 550%;
+    color: rgb(188, 188, 188);
+    font-family: 'helvetica';
+    margin-right: 7.5px;
+    margin-top: 60px;
+    float: right;
+}
+
+
+h6+p:first-letter {
+    line-height: 0.5;
+    font-family: 'helvetica';
+    font-size: 375%;
+    font-weight: 900;
+    color: #A04545;
+    margin-right: 4px;
+    float: left;
+}
+
+h6+blockquote+p:first-letter {
+    line-height: 0.5;
+    font-family: 'helvetica';
+    font-size: 375%;
+    font-weight: 900;
+    color: #A04545;
+    margin-right: 4px;
+    float: left;
+}
+
+cite {
+    font-family: 'helvetica';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+figcaption {
+    font-family: 'helvetica';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+hr {
+    color: black;
+}
+
+.has-large-font-size {
+    font-size: 2.5em !important;
+}
+
+.articleTexte li {
+    line-height: 1;
+}
+
+@media screen and (max-height: 1400px) {
+    .articleTexte p {
+        font-size: 1.2em;
+
+    }
+
+    .articleTexte h1,
+    h2,
+    h3 {
+        font-size: 1.7rem;
+
+    }
+
+    .articleTexte h2,
+    h3 {
+        font-size: 1.5rem;
+        font-family: 'helvetica';
+    }
+
+    .has-large-font-size p {
+        font-size: 1.7em !important;
+    }
+
+
+}
+
+
+
+/* / ABOUTTT  ////////////////////////////////////////////////////////////////////////////////////////// */
+
+.aabout {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aabout a {
+    font-family: 'helvetica';
+    color: #A04545;
+}
+
+.about-section {
+    background-size: 55% !important;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+@media screen and (max-height: 1400px) {
+    .about-section {
+        background-size: 75% !important;
+    }
+}
+
+.inner-container {
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .inner-container {
+        padding: 80px;
+    }
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .about-section {
+        background-size: 100% !important;
+        padding: 100px 40px;
+    }
+
+    .inner-container {
+        width: 100%;
+    }
+
+    .articleTexte {
+        margin-bottom: 5%;
+        margin-right: 7.5%;
+        margin-left: 7.5%;
+        padding-bottom: 5%;
+        padding-right: 5%;
+        padding-left: 0;
+        padding-top: 2%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-section {
+        padding: 0;
+    }
+
+    .inner-container {
+        padding: 60px;
+    }
+}

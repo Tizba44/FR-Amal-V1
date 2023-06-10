@@ -1,0 +1,228 @@
+.nav__menu {
+    display: none;
+}
+
+.nav__list,
+.nav__link {
+    display: flex;
+}
+
+.nav__link {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav__list {
+    justify-content: space-around;
+}
+
+.nav__name {
+    font-size: 1rem;
+}
+
+
+
+.nav__icon {
+    font-size: 1.5rem;
+}
+
+/* ......../navphone transibouton/.......... */
+
+#b {
+    display: none;
+}
+
+
+#d {
+    display: none;
+}
+
+#f {
+    display: none;
+}
+
+#h {
+    display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .main-title {
+        margin-top: 1.5em;
+        font-weight: 600;
+        font-size: 3rem;
+        margin: 10%;
+    }
+
+    .nav__menu {
+        content-visibility: visible;
+    }
+
+    .nav__menu {
+        background: white;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        box-shadow: 24px 0 48px 0px rgb(0, 0, 0, 0.400);
+        width: 100%;
+        height: 4rem;
+        padding: 0 1rem;
+        display: grid;
+        align-content: center;
+        border-radius: 1.25rem 1.25rem 0 0;
+        transition: .4s;
+        z-index: 150 !important;
+    }
+
+    .spacephone {
+        padding: 25px;
+    }
+
+}
+
+/* ......../ footer /.......... */
+footer {
+    padding: 20px 0 10px 0;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+
+.ligne {
+    height: 1px;
+    width: 80%;
+    background-color: #000000;
+    margin: 60px auto;
+}
+
+.copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 5%;
+}
+
+.copyright {
+    width: 50%;
+    text-align: left;
+    font-weight: 500;
+}
+
+
+.icons {
+    width: 50%;
+    text-align: right;
+}
+
+.icons a {
+    display: inline-block;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+#insta {
+    font-size: 1.75rem;
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: #A04545 !important;
+    transition: 0.3s;
+}
+
+.icons a:hover {
+    color: #A04545 !important;
+    transition: 0.3s;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.progress-bar {
+    width: 100%;
+    height: 2.5px;
+    position: fixed;
+    top: 75px;
+}
+
+.fill {
+    height: 100%;
+    width: 0%;
+    background-color: #A04545;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    footer {
+        padding: 20px 0 10px 0;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+/* classe injection */
+/* /////////////////////////////////////////////////////////////////////////////////////////// */
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.darkbody {
+    background: #35363A;
+}
+
+.darktext {
+    color: white;
+}
+
+.about {
+    background-color: #35363A !important;
+}
+
+.darkligne {
+    background-color: #ffffff !important;
+}
+
+.darknavphone {
+    box-shadow: 24px 0 48px 0px rgb(0, 0, 0, 0.600) !important;
+    background: #35363A !important;
+}
+
+.darkimage {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3) !important;
+}
+
+.back {
+    background:
+        linear-gradient(90deg, var(--c) 50%, #ffffff 0) calc(100% - var(--_p, 0%))/200% 100%,
+        linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+}

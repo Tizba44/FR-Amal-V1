@@ -1,0 +1,137 @@
+/*
+Nom du thème : fr
+Author: Baptiste AUDEON
+Author URI: https://wordpress.org/
+Description: mon cousin il dit nanani nana moi je l'écoute pas.
+Version: 6.9
+Tags: on écrit sur les mur a l'encre de ceux qu'on aime
+License: badminton
+*/
+
+
+/*=============== BASE ===============*/
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    font-size: 90%;
+}
+
+
+body {
+    background: #fff;
+    color: black;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+a {
+    font-family: "helvetica";
+    color: black;
+    position: relative;
+}
+
+
+li,
+cite,
+li,
+p {
+    font-family: 'helvetica';
+    font-size: 1rem;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+h1,
+h2,
+h3 {
+    font-family: "helvetica";
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+/* ......../utility classes/.......... */
+
+.container {
+    width: 92.5%;
+    margin: auto;
+}
+
+.space1 {
+    padding: 12px;
+}
+
+.space2 {
+    padding: 60px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    font-family: 'helvetica';
+    color: white !important;
+
+}
+
+
+.btn-primary {
+    background-image: linear-gradient(to right, #e52d27 0%, #A04545 51%, #e52d27 100%);
+    transition: 0.3s;
+    background-size: 200% auto;
+    color: white;
+    display: block;
+}
+
+.btn-primary:hover {
+    background-position: right center;
+}
+
+
+/* IMAGE EN UNE  */
+
+.showcase-area {
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.45);
+    height: 100%;
+
+}
+
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.showcase-container a {
+    font-size: 1.8rem;
+}
+
+.main-title {
+    margin-top: 1.5em;
+    font-weight: 600;
+    font-size: 5rem;
+}
