@@ -112,7 +112,7 @@
             <img src="<?php bloginfo('template_url'); ?>/assets/img/dark_mode.png" class="darkTop" alt="logo lune" target="blank">
 
 
-            <a id='frUk' href="https://amalgames.blog/usa/"><img src="<?php bloginfo('template_url'); ?>/assets/img/fr.png" class="frBot" alt="link to french site"></a>
+            <a id='frUk' href="https://uk.amalgames.blog/"><img src="<?php bloginfo('template_url'); ?>/assets/img/fr.png" class="frBot" alt="link to french site"></a>
 
         </div>
 
