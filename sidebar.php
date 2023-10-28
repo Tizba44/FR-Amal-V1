@@ -104,7 +104,7 @@
 
 
 
-            <li><a class="zig" href="https://amalgames.blog/a-propos/">À propos</a>
+            <li><a class="zig" href="https://amalgames.baptisteaudeon.com/a-propos/">À propos</a>
         </ul>
 
         <div class="darkLight">
@@ -112,7 +112,7 @@
             <img src="<?php bloginfo('template_url'); ?>/assets/img/dark_mode.png" class="darkTop" alt="logo lune" target="blank">
 
 
-            <a id='frUk' href="https://uk.amalgames.blog/"><img src="<?php bloginfo('template_url'); ?>/assets/img/fr.png" class="frBot" alt="link to french site"></a>
+            <a id='frUk' href="https://amalgames.uk.baptisteaudeon.com/"><img src="<?php bloginfo('template_url'); ?>/assets/img/fr.png" class="frBot" alt="link to french site"></a>
 
         </div>
 

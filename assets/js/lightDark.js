@@ -1,5 +1,5 @@
-
 const lightBot = document.querySelector(".lightBot");
+
 const darkTop = document.querySelector(".darkTop");
 
 const body = document.querySelector("body");
